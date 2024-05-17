@@ -5,9 +5,15 @@
   user-select: none;
   scroll-behavior: smooth;
 }
+body{
+  background: #050505;
+}
+:root{
+  --font-niagra:"niagra",var(--font-niagra)
+}
 @layer base {
   @font-face {
-    font-family: 'Niagra';
+    font-family: 'niagra';
     font-style: normal;
     font-weight: 400;
     font-display: swap;

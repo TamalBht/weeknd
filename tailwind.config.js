@@ -7,9 +7,21 @@ export default {
   theme: {
     extend: {
       colors:{
-        1: "#050505",
-        2: "#FF0909"
-      }
+        color:{
+          1: "#050505",
+          2: "#FF0909",
+          3: "#F83333",
+          4: "#FFFFFF",
+        },
+        n:{
+          1:"#FFFFFF",
+          2:"#FF0909",
+        }
+      },
+      fontFamily: {
+       
+        niagra:["var(--font-niagra)"]
+      },
     },
   },
   plugins: [],
