@@ -7,6 +7,7 @@
 }
 body{
   background: #050505;
+  color: aliceblue;
 }
 :root{
   --font-niagra:"niagra",var(--font-niagra)
