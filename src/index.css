@@ -9,7 +9,7 @@
 *{
   user-select: none;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 body{
   background: #050505;
