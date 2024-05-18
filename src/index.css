@@ -9,11 +9,16 @@
 *{
   user-select: none;
   scroll-behavior: smooth;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 body{
   background: #050505;
   color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 0px;
 }
 .font-niagra{
   font-family: "niagra";

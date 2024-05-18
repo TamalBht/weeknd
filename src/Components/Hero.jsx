@@ -6,18 +6,20 @@ import { ScrollParallax } from 'react-just-parallax';
 
 const Hero = () => {
   return (
-   <Section id="hero">
+   <Section id="hero" className={"mt-[0rem]"}>
     {/* main wrapper */}
-    <div className='flex column overflow-hidden' >
+    <div className='flex    h-[100vh]' >
         {/* text */}
-        <ScrollParallax isAbsolutelyPositioned>
-        <div className=''>
-            <h1 className='absolute font-niagra text-center text-n-2  text-[17rem] overflow-hidden ml-[35rem] overflow-hidden'>The Weeknd</h1>
-        </div>
+        <div className='  h-fit '>
+        <ScrollParallax isAbsolutelyPositioned >
+        
+            <h1 className=' bg-text font-niagra text-center text-n-2  text-[19rem]  ml-[15rem] tracking-[15px]'>The Weeknd</h1>
+        
         </ScrollParallax>
+        </div>
         {/* image */}
         <div className=''>
-            <img src = {weeknd} height={20} className=' absolute max-w-[30rem] lg:max-w-[34rem] left-[35%] z-50 mt-[6rem]'/>
+            <img src = {weeknd} height={20} className=' overflow-hidden absolute max-w-[30rem] lg:max-w-[34rem] left-[35%] z-50 mt-[7rem]'/>
         </div>
     </div>
 
