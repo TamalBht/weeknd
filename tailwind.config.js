@@ -20,7 +20,7 @@ export default {
       },
       fontFamily: {
        
-        niagra:["var(--font-niagra)"]
+        niagraa:["niagra","sans-serif"],
       },
     },
   },
