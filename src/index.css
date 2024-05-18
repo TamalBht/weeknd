@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'niagra';
   
-  src: url(./Components/NIAGENG.TTF) format('ttf');
+  src: url("./assets/NIAGENG.TTF") ;
 }
 @tailwind base;
 @tailwind components;
@@ -14,5 +14,8 @@
 body{
   background: #050505;
   color: aliceblue;
+}
+.font-niagra{
+  font-family: "niagra";
 }
 

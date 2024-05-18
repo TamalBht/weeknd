@@ -9,7 +9,7 @@ const Hero = () => {
     <div >
         {/* text */}
         <div>
-            <h1 className='text-n-2 font-niagraa text-5xl overflow-hidden'>The Weeknd</h1>
+            <h1 className='font-niagra text-n-2  text-5xl overflow-hidden'>The Weeknd</h1>
         </div>
         {/* image */}
         <div>

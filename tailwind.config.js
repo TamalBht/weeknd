@@ -18,10 +18,10 @@ export default {
           2:"#FF0909",
         }
       },
-      fontFamily: {
+      // fontFamily: {
        
-        niagraa:["niagra","sans-serif"],
-      },
+      //   niagraa:["niagra","sans-serif"],
+      // },
     },
   },
   plugins: [],
