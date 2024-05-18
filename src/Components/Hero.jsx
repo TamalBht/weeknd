@@ -6,14 +6,14 @@ import { ScrollParallax } from 'react-just-parallax';
 
 const Hero = () => {
   return (
-   <Section id="hero" className={"mt-[0rem]"}>
+   <Section id="hero" className={"mt-[0rem] mb-[50vh]"}>
     {/* main wrapper */}
-    <div className='flex    h-[100vh]' >
+    <div className='flex    ' >
         {/* text */}
         <div className='  h-fit '>
         <ScrollParallax isAbsolutelyPositioned >
         
-            <h1 className=' bg-text font-niagra text-center text-n-2  text-[19rem]  ml-[15rem] tracking-[15px]'>The Weeknd</h1>
+            <h1 className=' bg-text font-niagra text-center text-n-2  text-[20rem]  ml-[15rem] tracking-[5px] '>The Weeknd</h1>
         
         </ScrollParallax>
         </div>
