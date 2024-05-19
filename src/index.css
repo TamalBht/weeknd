@@ -11,6 +11,10 @@
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+li{
+    transition: all ease-in-out 350ms;
+
+}
 body{
   background: #050505;
   color: aliceblue;

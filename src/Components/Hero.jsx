@@ -2,6 +2,7 @@ import React from 'react';
 import Section from './Section';
 import weeknd from "../Components/weeknd-2.png"
 import { ScrollParallax } from 'react-just-parallax';
+import Sidebar from './Sidebar';
 
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
         <div className='  h-fit '>
         <ScrollParallax isAbsolutelyPositioned >
         
-            <h1 className=' bg-text font-niagra text-center text-n-2  text-[20rem]  ml-[15rem] tracking-[5px] '>The Weeknd</h1>
+            <h1 className=' bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] lg:text-[20rem] ml-[20rem]  md:ml-[15rem] lg:tracking-[5px] '>The Weeknd</h1>
         
         </ScrollParallax>
         </div>
@@ -22,6 +23,7 @@ const Hero = () => {
             <img src = {weeknd} height={20} className=' overflow-hidden absolute max-w-[30rem] lg:max-w-[34rem] left-[35%] z-50 mt-[7rem]'/>
         </div>
     </div>
+    <Sidebar/>
 
    </Section>
   )
