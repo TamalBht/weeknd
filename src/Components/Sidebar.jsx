@@ -10,10 +10,10 @@ const Sidebar = () => {
                 <li className='mb-[3rem] rounded-full hover:shadow-[5px_5px_5px_#ff0909] px-3'>
                     <img src={afterhour} width={100}/>
                 </li>
-                <li className='mb-[3rem] rounded-full'>
+                <li className='w-fit mb-[3rem] rounded-full  hover:shadow-[5px_5px_5px#274F5F]'>
                     <img src={dawn} width={100}/>
                 </li>
-                <li className='mb-[3rem] rounded-full mr-[2rem]'>
+                <li className='mb-[3rem] rounded-full mr-[2rem] hover:shadow-[5px_5px_5px#B1471F]'>
                     <img src={melancholy} width={100} />
                 </li>
             </ul>
