@@ -4,7 +4,7 @@ import dawn from "../assets/dawnfm.jpg"
 import melancholy from "../assets/melancholy.jpg"
 const Sidebar = () => {
   return (
-    <div className='h-[100vh] flex items-center '>
+    <div className='h-[100vh] flex z-50 md:items-center  flex-col md:flex-row'>
         <nav className='mt-[10rem] ml-[2.5rem]'>
             <ul>
                 <li className='mb-[3rem] rounded-full hover:shadow-[5px_5px_5px_#ff0909] px-3'>
