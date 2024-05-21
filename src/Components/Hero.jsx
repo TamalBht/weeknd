@@ -9,12 +9,12 @@ const Hero = () => {
   return (
    <Section id="hero" className={"mt-[0rem] mb-[50vh]"}>
     {/* main wrapper */}
-    <div className='flex  flex-col justify-between md:flex-row  ' >
+    <div className='md:flex    ' >
         {/* text */}
         <div className=' z-0 h-fit '>
         <ScrollParallax isAbsolutelyPositioned >
         
-            <h1 className=' bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] lg:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>The Weeknd</h1>
+            <h1 className=' bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[14rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>The Weeknd</h1>
         
         </ScrollParallax>
         </div>
