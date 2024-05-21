@@ -14,13 +14,13 @@ const Hero = () => {
         <div className=' z-0 h-fit '>
         <ScrollParallax isAbsolutelyPositioned >
         
-            <h1 className=' bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[14rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>The Weeknd</h1>
+            <h1 className='mt-[15vh] md:-mt-[0vh] bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>The Weeknd</h1>
         
         </ScrollParallax>
         </div>
         {/* image */}
         <div className=''>
-            <img src = {weeknd} height={20} className=' overflow-hidden absolute max-w-[30rem] lg:max-w-[34rem] left-[35%] z-50 mt-[7rem]'/>
+            <img id='weeknd' src = {weeknd} height={20} className=' overflow-hidden absolute md:absolute max-w-[20rem] md:max-w-[30rem] lg:max-w-[34rem]  md:left-[35%] z-50 mt-[7rem]'/>
         </div>
         <Sidebar/>
 

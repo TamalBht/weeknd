@@ -28,3 +28,13 @@ body{
   font-family: "niagra";
 }
 
+@media (max-width:426px) {
+  #weeknd{
+    left: 10vw;
+  }
+}
+@media (max-width:321px) {
+  #weeknd{
+    left:0;
+  }
+}
