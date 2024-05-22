@@ -52,11 +52,11 @@ body{
 }
 #hero h1{
   animation-name: down;
-  animation-duration:550ms;
+  animation-duration:1.5s;
 }
 #hero img{
   animation-name: down;
-  animation-duration:3s;
+  animation-duration:1.5s;
   animation-delay: 90ms;
 
 }
