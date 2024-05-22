@@ -38,3 +38,25 @@ body{
     left:0;
   }
 }
+@keyframes down {
+  100%{
+    top:0vh;
+  }
+  0%{
+    top:70vh;
+    filter: blur(20px);
+  }
+  50%{
+    filter: blur(10px);
+  }
+}
+#hero h1{
+  animation-name: down;
+  animation-duration:550ms;
+}
+#hero img{
+  animation-name: down;
+  animation-duration:3s;
+  animation-delay: 90ms;
+
+}

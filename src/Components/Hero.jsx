@@ -19,7 +19,7 @@ const Hero = () => {
         </ScrollParallax>
         </div>
         {/* image */}
-        <div className=''>
+        <div className='hero-img'>
             <img id='weeknd' src = {weeknd} height={20} className=' overflow-hidden absolute md:absolute max-w-[20rem] md:max-w-[30rem] lg:max-w-[34rem]  md:left-[35%] z-50 mt-[7rem]'/>
         </div>
         <Sidebar/>
