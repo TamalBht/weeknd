@@ -14,7 +14,7 @@ const Hero = () => {
         <div className=' z-0 h-fit '>
         <ScrollParallax isAbsolutelyPositioned >
         
-            <h1 className='mt-[15vh] md:-mt-[0vh] bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>The Weeknd</h1>
+            <h1 className='mt-[15vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>The Weeknd</h1>
         
         </ScrollParallax>
         </div>
