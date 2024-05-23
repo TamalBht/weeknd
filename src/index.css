@@ -3,6 +3,7 @@
   
   src: url("./assets/NIAGENG.TTF") ;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,6 +59,6 @@ body{
   animation-name: down;
   animation-duration:1.5s;
   animation-delay: 100ms;
-  
+
 
 }
