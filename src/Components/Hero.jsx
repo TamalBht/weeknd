@@ -3,11 +3,13 @@ import Section from './Section';
 import weeknd from "../Components/weeknd-2.png"
 import { ScrollParallax } from 'react-just-parallax';
 import Sidebar from './Sidebar';
+import Footer from './Footer';
 
 
 const Hero = () => {
   return (
-   <Section id="hero" className={"mt-[0rem] mb-[50vh]"}>
+    <>
+   <Section id="hero" className={"mt-[0rem] mb-[40vh]"}>
     {/* main wrapper */}
     <div className='md:flex    ' >
         {/* text */}
@@ -27,6 +29,8 @@ const Hero = () => {
     </div>
 
    </Section>
+   <Footer/>
+   </>
   )
 }
 
