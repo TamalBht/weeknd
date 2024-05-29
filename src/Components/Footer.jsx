@@ -1,5 +1,5 @@
 import React from 'react'
-import Typewriter from 'typewriter-effect/dist/core';
+
 
 
 const Footer = () => {
