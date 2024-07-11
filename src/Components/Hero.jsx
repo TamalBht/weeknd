@@ -41,8 +41,8 @@ const Hero = () => {
         start:'top centre',
         end:"+=300",
         scrub:true,
-        markers:false,
-        toggleActions:"replay pause reverse pause",
+        
+        toggleActions:"reset pause reverse pause",
         
 
       },
