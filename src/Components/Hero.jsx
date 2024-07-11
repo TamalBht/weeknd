@@ -27,10 +27,10 @@ const Hero = () => {
         
 
       },
-      y:300,
+      y:400,
       letterSpacing:15,
       duration:2,
-     
+      ease: "power0.inOut",
         
       
       
@@ -53,6 +53,7 @@ const Hero = () => {
       letterSpacing:15,
      
         duration:2,
+        ease: "power0.inOut",
       
       
     })
