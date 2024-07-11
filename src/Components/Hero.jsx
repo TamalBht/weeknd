@@ -8,9 +8,28 @@ import dawn from "../assets/dawnfm.jpg"
 import melancholy from "../assets/melancholy.jpg"
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
-
+import { useGSAP } from '@gsap/react';
+gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
-  
+  useGSAP(()=>{
+    gsap.to(".hText",{
+      scrollTrigger:{
+        trigger:".hText",
+        start:'top top',
+        end:"+=300",
+        scrub:1,
+        markers:true,
+        toggleActions:"play pause reverse pause",
+
+      },
+      y:200,
+     
+        duration:2,
+      
+      
+    })
+
+  })
   return (
     <>
    <section id="hero" className={"mt-[0rem] mb-[40vh]"}>
@@ -34,11 +53,11 @@ const Hero = () => {
     </div>
         {/* text */}
         <div className=' z-0 h-fit '>
-            <h1 className='mt-[15vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>After Hours</h1>
+            <h1 className=' mt-[15vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>After Hours</h1>
         </div>
         {/* image */}
         <div className='hero-img'>
-            <img id='weeknd' src = {weeknd} height={20} className=' overflow-hidden absolute md:absolute max-w-[20rem] md:max-w-[30rem] lg:max-w-[34rem]  md:left-[35%] z-50 mt-[7rem]'/>
+            <img id='weeknd' src = {weeknd} height={20} className='overflow-hidden absolute md:absolute max-w-[20rem] md:max-w-[30rem] lg:max-w-[34rem]  md:left-[35%] z-50 mt-[7rem]'/>
         </div>
         
 
@@ -49,12 +68,13 @@ const Hero = () => {
    <section id="second" className={"mt-[0rem] mb-[40vh] min-h-[100vh]"}>
      {/* text */}
      <div className=' z-0 h-full '>
-            <h1 className='mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  z-[-1]'>Dawn FM</h1>
+            <h1 className='hText mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
         </div>
         <div className='hero-img1'>
-            <img id='weeknd2' src = {dawnMain} height={1020} className=' overflow-hidden relative md:absolute max-w-[50rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 mt-[-15rem] '/>
+            <img id='weeknd2' src = {dawnMain} height={1020} className='overflow-hidden relative md:absolute max-w-[50rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 mt-[-15rem] '/>
         </div>
    </section>
+   <section className='mt-[0rem] mb-[40vh] min-h-[100vh]"'></section>
    
    </>
   )

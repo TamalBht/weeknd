@@ -43,3 +43,6 @@ body{
 .hero-img1{
   background-size: cover;
 }
+#second h1{
+  overflow: visible;
+}
