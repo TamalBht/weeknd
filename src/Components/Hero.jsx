@@ -20,8 +20,9 @@ const Hero = () => {
       scrollTrigger:{
         trigger:".hText",
         start:'top center',
-        end:"bottom bottom",
-        scrub:true,
+        end:"bottom center",
+        scrub:2,
+        
         
         toggleActions:"play pause reverse pause",
         
@@ -43,7 +44,7 @@ const Hero = () => {
         trigger:firstRef.current,
         start:'center center',
         end:"bottom bottom",
-        scrub:true,
+        scrub:1,
         
         toggleActions:"play pause reverse pause",
         
@@ -60,10 +61,10 @@ const Hero = () => {
 
   },[])
   return (
-    <div className='flex   '>
-       <div className=' absolute md:fixed translate-y-[100vh] md:translate-y-0 h-[100vh] md:h-[100vh]   top-[10vh] md:top[-5vh] w-fit z-50'>
-        <nav className='  relative  md:top-0  ml-[2.5rem] h-[20vh] md:h-auto '>
-            <ul className='  flex justify-evenly md:block'>
+    <div className='flex   flex-row md:flex-none'>
+       <div className='navv fixed  md:fixed  md:translate-y-0 h-fit md:h-[100vh]   top-[10vh] md:top[-5vh] w-full md:w-fit z-[99]  '>
+        <nav className='    md:top-0  md:ml-[2.5rem]  md:h-auto '>
+            <ul className='  md:gap-[0] flex justify-evenly align-center md:block'>
                 <li className='w-fit mb-[3rem]  rounded-full shadow-[2px_2px_5px_#ff0909] active:scale-[0.75]'>
                    <a href="#hero"> <img src={afterhour} width={130} className='rounded-full'/></a>
                 </li>
@@ -77,15 +78,15 @@ const Hero = () => {
         </nav>
     </div>
   {/*xsection container*/ }
-  <div className="sec-cont">
-  <section id="hero" className={"mt-[0rem] mb-[50vh] w-fit py-[10vh]"}>
+  <div className="sec-cont ">
+  <section id="hero" className={"relative top-[30vh] md:top-0 mt-[0rem] mb-[50vh] w-full md:w-fit "}>
     {/* main wrapper */}
     {/* side bar */}
     <div className='md:flex    ' >
    
         {/* text */}
         <div className=' z-0 h-fit w-full'>
-            <h1 className='relative left-[10vw] mt-[15vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] ' ref={firstRef}>After Hours</h1>
+            <h1 className='relative left-[10vw] mt-[25vh] md: lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] ' ref={firstRef}>After Hours</h1>
         </div>
         {/* image */}
         <div className='hero-img'>
@@ -96,7 +97,7 @@ const Hero = () => {
     </div>
 
    </section>
-   <div className="h-[20vh]"></div>
+   <div className="h-[25vh]"></div>
    {/*next section*/ }
    <section id="second" className={"mt-[0vh] mb-[40vh] min-h-[100vh]"}>
      {/* text */}

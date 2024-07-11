@@ -31,7 +31,7 @@ body{
 
 @media (max-width:426px) {
   #weeknd{
-    left: 10vw;
+    
     top:-5%;
   }
   #hero{
@@ -59,4 +59,11 @@ body{
 }
 #second {
   /* background-color: aliceblue; */
+}
+.navv{
+  backdrop-filter: blur(10px);
+  background-color: #05050560;
+}
+.navv {
+  padding-top: 10vh;
 }
