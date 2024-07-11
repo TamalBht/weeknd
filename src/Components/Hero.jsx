@@ -42,7 +42,7 @@ const Hero = () => {
         end:"+=300",
         scrub:true,
         markers:false,
-        toggleActions:"play pause reverse pause",
+        toggleActions:"replay pause reverse pause",
         
 
       },
