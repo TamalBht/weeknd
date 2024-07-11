@@ -29,7 +29,7 @@ jobs:
           const browser = await puppeteer.launch();
           const page = await browser.newPage();
           await page.goto('https://weeknd-omega.vercel.app/');
-          await page.screenshot({ path: 'website_preview.png', fullPage: true });
+          await page.screenshot({ path: './README.md', fullPage: true });
           await browser.close();
         })();
         "
