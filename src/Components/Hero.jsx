@@ -63,15 +63,15 @@ const Hero = () => {
     <div className='flex   '>
        <div className=' absolute md:fixed translate-y-[100vh] md:translate-y-0 h-[100vh] md:h-[100vh]   top-[10vh] md:top[-5vh] w-fit z-50'>
         <nav className='  relative  md:top-0  ml-[2.5rem] h-[20vh] md:h-auto '>
-            <ul className=' gap-3 flex justify-between md:block'>
-                <li className='w-fit mb-[3rem]  rounded-full hover:shadow-[5px_5px_5px_#ff0909] px-3'>
-                   <a href="#hero"> <img src={afterhour} width={100} className='rounded-full'/></a>
+            <ul className='  flex justify-evenly md:block'>
+                <li className='w-fit mb-[3rem]  rounded-full shadow-[2px_2px_5px_#ff0909] active:scale-[0.75]'>
+                   <a href="#hero"> <img src={afterhour} width={130} className='rounded-full'/></a>
                 </li>
-                <li className='w-fit mb-[3rem] rounded-full  hover:shadow-[5px_5px_5px#274F5F]'>
-                    <a href="#second"><img src={dawn} width={100} className='rounded-full'/></a>
+                <li className='w-fit mb-[3rem] rounded-full  shadow-[2px_2px_5px#274F5F] active:scale-[0.75]'>
+                    <a href="#second"><img src={dawn} width={130} className='rounded-full'/></a>
                 </li>
-                <li className='w-fit mb-[3rem] rounded-full mr-[2rem] hover:shadow-[5px_5px_5px#B1471F]'>
-                    <img src={melancholy} width={90} className='rounded-full'/>
+                <li className='w-fit mb-[3rem] rounded-full  shadow-[2px_2px_5px#B1471F] active:scale-[0.75]'>
+                    <img src={melancholy} width={130} className='rounded-full'/>
                 </li>
             </ul>
         </nav>
