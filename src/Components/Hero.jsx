@@ -23,6 +23,7 @@ const Hero = () => {
 
       },
       y:200,
+      letterSpacing:15,
      
         duration:2,
       
@@ -40,13 +41,13 @@ const Hero = () => {
         <nav className=' relative  md:top-0 md:mt-[10rem] ml-[2.5rem] h-[20vh] md:h-auto'>
             <ul className=' gap-3 flex justify-between md:block'>
                 <li className='w-fit mb-[3rem]  rounded-full hover:shadow-[5px_5px_5px_#ff0909] px-3'>
-                    <img src={afterhour} width={100}/>
+                    <img src={afterhour} width={100} className='rounded-full'/>
                 </li>
                 <li className='w-fit mb-[3rem] rounded-full  hover:shadow-[5px_5px_5px#274F5F]'>
-                    <img src={dawn} width={100}/>
+                    <img src={dawn} width={100} className='rounded-full'/>
                 </li>
                 <li className='mb-[3rem] rounded-full mr-[2rem] hover:shadow-[5px_5px_5px#B1471F]'>
-                    <img src={melancholy} width={100} />
+                    <img src={melancholy} width={90} className='rounded-full'/>
                 </li>
             </ul>
         </nav>
@@ -71,7 +72,7 @@ const Hero = () => {
             <h1 className='hText mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
         </div>
         <div className='hero-img1'>
-            <img id='weeknd2' src = {dawnMain} height={1020} className='overflow-hidden relative md:absolute max-w-[50rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 mt-[-15rem] '/>
+            <img id='weeknd2' src = {dawnMain} height={1020} className=' relative md:absolute max-w-[50rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 mt-[-15rem] '/>
         </div>
    </section>
    <section className='mt-[0rem] mb-[40vh] min-h-[100vh]"'></section>

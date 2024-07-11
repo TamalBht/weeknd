@@ -10,7 +10,7 @@
 *{
   user-select: none;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  
 }
 li{
     transition: all ease-in-out 350ms;
