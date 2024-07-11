@@ -14,26 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const firstRef=useRef(null);
   
-  useGSAP(()=>{
-    gsap.to(firstRef.current,{
-      scrollTrigger:{
-        trigger:firstRef.current,
-        start:'top centre',
-        end:"+=300",
-        scrub:true,
-        markers:false,
-        toggleActions:"play pause reverse pause",
-
-      },
-      y:200,
-      letterSpacing:8,
-     
-        duration:2,
-      
-      
-    })
-
-  })
+ 
   useEffect(()=>{
     gsap.to(".hText",{
       scrollTrigger:{
