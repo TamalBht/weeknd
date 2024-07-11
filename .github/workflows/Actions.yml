@@ -1,8 +1,8 @@
-name: Daily Readme Update
+name: Daily Data Update
 
 on:
   schedule:
-    - cron: "0 4,8,12,17,22 * * *"
+    - cron: "30 8 * * *"
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -10,18 +10,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun & run
+      - name: Setup Bun & Run
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
 
-      - name: Get Prices
+      - name: Update json
         env:
           APIKEY: ${{ secrets.APIKEY }}
         run: |
-          bun run dev
+          bun run generate
           git config --global user.email "bht.tamal@gmail.com"
           git config --global user.name "Tamal Bhattacharjee"
-          git add README.md
+          git add .
           git commit -m "Updated README on $(TZ=Asia/Kolkata date +'%Y-%m-%d %H:%M')"
           git push origin main
