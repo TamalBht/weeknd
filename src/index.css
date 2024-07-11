@@ -32,10 +32,24 @@ body{
 @media (max-width:426px) {
   #weeknd{
     left: 10vw;
+    top:-5%;
+  }
+  #hero{
+    
   }
 }
 @media (max-width:321px) {
   #weeknd{
+    left:0;
+  }
+}
+@media (max-width:426px) {
+  #weeknd2{
+    left: 10vw;
+  }
+}
+@media (max-width:321px) {
+  #weeknd2{
     left:0;
   }
 }
