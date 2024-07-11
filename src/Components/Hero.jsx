@@ -9,21 +9,43 @@ import melancholy from "../assets/melancholy.jpg"
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import { useRef } from 'react';
 gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
+  const firstRef=useRef(null);
   useGSAP(()=>{
     gsap.to(".hText",{
       scrollTrigger:{
         trigger:".hText",
-        start:'top top',
+        start:'top centre',
         end:"+=300",
-        scrub:1,
+        scrub:true,
         markers:true,
         toggleActions:"play pause reverse pause",
 
       },
       y:200,
       letterSpacing:15,
+     
+        duration:2,
+      
+      
+    })
+
+  })
+  useGSAP(()=>{
+    gsap.to(firstRef.current,{
+      scrollTrigger:{
+        trigger:firstRef.current,
+        start:'top centre',
+        end:"+=300",
+        scrub:true,
+        markers:true,
+        toggleActions:"play pause reverse pause",
+
+      },
+      y:200,
+      letterSpacing:8,
      
         duration:2,
       
@@ -38,13 +60,13 @@ const Hero = () => {
     {/* side bar */}
     <div className='md:flex    ' >
     <div className=' absolute md:relative translate-y-[100vh] md:translate-y-0 h-fit md:h-[100vh]   top-[10vh] md:top[0vh] w-auto'>
-        <nav className=' relative  md:top-0 md:mt-[10rem] ml-[2.5rem] h-[20vh] md:h-auto'>
+        <nav className=' relative  md:top-0 md:mt-[10rem] ml-[2.5rem] h-[20vh] md:h-auto fixed'>
             <ul className=' gap-3 flex justify-between md:block'>
                 <li className='w-fit mb-[3rem]  rounded-full hover:shadow-[5px_5px_5px_#ff0909] px-3'>
-                    <img src={afterhour} width={100} className='rounded-full'/>
+                   <a href="#hero"> <img src={afterhour} width={100} className='rounded-full'/></a>
                 </li>
                 <li className='w-fit mb-[3rem] rounded-full  hover:shadow-[5px_5px_5px#274F5F]'>
-                    <img src={dawn} width={100} className='rounded-full'/>
+                    <a href="#second"><img src={dawn} width={100} className='rounded-full'/></a>
                 </li>
                 <li className='mb-[3rem] rounded-full mr-[2rem] hover:shadow-[5px_5px_5px#B1471F]'>
                     <img src={melancholy} width={90} className='rounded-full'/>
@@ -54,7 +76,7 @@ const Hero = () => {
     </div>
         {/* text */}
         <div className=' z-0 h-fit '>
-            <h1 className=' mt-[15vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] '>After Hours</h1>
+            <h1 className=' mt-[15vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] ' ref={firstRef}>After Hours</h1>
         </div>
         {/* image */}
         <div className='hero-img'>
