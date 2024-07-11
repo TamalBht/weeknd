@@ -12,10 +12,12 @@ export default {
           2: "#FF0909",
           3: "#F83333",
           4: "#FFFFFF",
+          5:"#096B8F"
         },
         n:{
           1:"#FFFFFF",
           2:"#FF0909",
+          3:"#096B8F",
         }
       },
       // fontFamily: {
