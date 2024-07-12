@@ -67,3 +67,12 @@ body{
 .navv {
   padding-top: 10vh;
 }
+.panel {
+  flex: 0 0 100vw; /* Each section takes up the full viewport width */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  position: relative;
+}
