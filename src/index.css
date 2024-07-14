@@ -68,14 +68,3 @@ body{
   padding-top: 10vh;
 }
 
-.container {
-  width: 400%;
-  height: 100vh;
-  display: flex;
-  flex-wrap: nowrap;
-}
-.lastcontainer {
-  display: flex;
-  height: 100vh;
-  background: yellow;
-}
