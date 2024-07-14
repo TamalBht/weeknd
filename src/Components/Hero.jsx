@@ -23,7 +23,7 @@ const Hero = () => {
       scrollTrigger:{
         trigger:".hText",
         start:'top center',
-        end:"bottom center",
+        end:"bottom bottom",
         scrub:2,
         
         
@@ -47,7 +47,8 @@ const Hero = () => {
         trigger:firstRef.current,
         start:'center center',
         end:"bottom bottom",
-        scrub:1,
+        scrub:2,
+        markers:true,
         
         toggleActions:"play pause reverse pause",
         
