@@ -27,6 +27,7 @@ const Hero = () => {
         scrub:2,
         
         
+        
         toggleActions:"play pause reverse pause",
         
 
@@ -48,7 +49,7 @@ const Hero = () => {
         start:'center center',
         end:"bottom bottom",
         scrub:2,
-        markers:true,
+        
         
         toggleActions:"play pause reverse pause",
         
@@ -112,9 +113,10 @@ const Hero = () => {
             <img id='weeknd2' src = {dawnMain} height={1020} className=' relative md:absolute max-w-[50rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 md:mt-[-15rem] mt-[0rem] '/>
         </div>
    </section>
-   <section className='mt-[0rem] mb-[40vh] min-h-[100vh]"'></section>
+   <section className={'mt-[0rem] mb-[40vh] min-h-[100vh] text-center'}>Second</section>
    {/*sidescroll */}
-  
+   <section className={'mt-[0rem] mb-[40vh] min-h-[100vh] text-center'}>THird</section>
+
   
    
   </div>
