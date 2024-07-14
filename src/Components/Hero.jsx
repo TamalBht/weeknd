@@ -14,8 +14,9 @@ import { useRef,useEffect } from 'react';
 gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const firstRef=useRef(null);
+  const contRef=useRef(null);
   
- 
+  
   useEffect(()=>{
     gsap.to(".hText",{
       scrollTrigger:{
@@ -32,7 +33,7 @@ const Hero = () => {
       y:400,
       letterSpacing:15,
       duration:2,
-      ease: "power0.inOut",
+      
         
       
       
@@ -55,7 +56,7 @@ const Hero = () => {
       letterSpacing:15,
      
         duration:2,
-        ease: "power0.inOut",
+        
       
       
     })
@@ -110,6 +111,9 @@ const Hero = () => {
         </div>
    </section>
    <section className='mt-[0rem] mb-[40vh] min-h-[100vh]"'></section>
+   {/*sidescroll */}
+  
+  
    
   </div>
    </div>
