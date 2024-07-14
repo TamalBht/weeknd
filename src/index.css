@@ -21,6 +21,7 @@ body{
   color: aliceblue;
   margin: 0;
   padding: 0;
+  
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -34,9 +35,7 @@ body{
     
     top:-5%;
   }
-  #hero{
-    
-  }
+  
 }
 @media (max-width:321px) {
   #weeknd{
@@ -57,9 +56,7 @@ body{
 .hero-img1{
   background-size: cover;
 }
-#second {
-  /* background-color: aliceblue; */
-}
+
 .navv{
   backdrop-filter: blur(10px);
   background-color: #05050560;
@@ -68,3 +65,19 @@ body{
   padding-top: 10vh;
 }
 
+.races {
+	width:fit-content;
+	display:flex;
+	flex-wrap:nowrap;
+}
+
+.races h2 {
+	
+	font-size:30vw;
+	flex-shrink:0;
+	padding-right:0.3em;
+	padding-left:0.3em;
+	color:#e10600;
+	
+	margin:0;	
+}

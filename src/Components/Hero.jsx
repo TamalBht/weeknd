@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import Section from './Section';
 import weeknd from "../Components/weeknd-2.png"
@@ -52,8 +53,8 @@ const Hero = () => {
         
 
       },
-      y:200,
-      letterSpacing:15,
+      y:400,
+      letterSpacing:8,
      
         duration:2,
         
@@ -63,7 +64,7 @@ const Hero = () => {
 
   },[])
   return (
-    <div className='flex   flex-row md:flex-none'>
+    <div className='flex   flex-row md:flex-none md:block'>
        <div className='navv fixed  md:fixed  md:translate-y-0 h-fit md:h-[100vh]   top-[10vh] md:top[-5vh] w-full md:w-fit z-[99]  '>
         <nav className='    md:top-0  md:ml-[2.5rem]  md:h-auto '>
             <ul className='  md:gap-[0] flex justify-evenly align-center md:block'>
@@ -104,7 +105,7 @@ const Hero = () => {
    <section id="second" className={"mt-[0vh] mb-[40vh] min-h-[100vh]"}>
      {/* text */}
      <div className=' z-0 h-fit w-full'>
-            <h1 className='hText relative left-[10vw] mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
+            <h1 className='hText relative left-[10vw] md:left-[0vw] mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
         </div>
         <div className='hero-img1'>
             <img id='weeknd2' src = {dawnMain} height={1020} className=' relative md:absolute max-w-[50rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 md:mt-[-15rem] mt-[0rem] '/>
@@ -121,4 +122,3 @@ const Hero = () => {
 }
 
 export default Hero
-
