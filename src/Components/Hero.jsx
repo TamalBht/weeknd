@@ -16,6 +16,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const firstRef=useRef(null);
   const contRef=useRef(null);
+ 
   
   
   useEffect(()=>{
@@ -65,8 +66,9 @@ const Hero = () => {
     })
 
   },[])
+  
   return (
-    <div className='flex   flex-row md:flex-none md:block'>
+    <div className='flex   flex-row md:flex-none md:block overflow-x-hidden'>
        <div className='navv fixed  md:fixed  md:translate-y-0 h-fit md:h-[100vh]   top-[10vh] md:top[-5vh] w-full md:w-fit z-[99]  '>
         <nav className='    md:top-0  md:ml-[2.5rem]  md:h-auto '>
             <ul className='  md:gap-[0] flex justify-evenly align-center md:block'>
@@ -115,8 +117,13 @@ const Hero = () => {
    </section>
    <section className={'mt-[0rem] mb-[40vh] min-h-[100vh] text-center'}>Second</section>
    {/*sidescroll */}
-   <section className={'mt-[0rem] mb-[40vh] min-h-[100vh] text-center'}>THird</section>
-
+   <div className={"container text-center w-[500vw] h-[100vh] flex flex-nowrap"}>
+    <section className={"panel w-[100vw] items-center justify-center text-[50vh] h-full"}>Abel</section>
+    <section className={"panel w-[100vw] items-center justify-center  text-[50vh] h-full"}>Tesfaye</section>
+    <section className={"panel w-[100vw] items-center justify-center text-[50vh] h-full"}>AKA</section>
+    <section className={"panel w-[100vw] items-center justify-center text-[50vh] h-full"}>The</section>
+    <section className={"panel w-[100vw] items-center justify-center text-[50vh] h-full"}>Weeknd</section>
+   </div>
   
    
   </div>

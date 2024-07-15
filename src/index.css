@@ -66,8 +66,9 @@ body{
 }
 
 .races {
-	width:fit-content;
+	
 	display:flex;
+  
 	flex-wrap:nowrap;
 }
 
