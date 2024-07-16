@@ -31,7 +31,7 @@ const Sidescroll = () => {
       animation: tween,
       scrub: 1,
       invalidateOnRefresh: true,
-      markers: true,
+      
     });
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
