@@ -18,6 +18,7 @@ export default {
           1:"#FFFFFF",
           2:"#FF0909",
           3:"#096B8F",
+          4:"#B1471F",
         }
       },
       // fontFamily: {

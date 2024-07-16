@@ -19,6 +19,9 @@ li{
     transition: all ease-in-out 350ms;
 
 }
+html{
+  overflow-x: hidden;
+}
 body{
   background: #050505;
   color: aliceblue;
@@ -46,11 +49,7 @@ body{
     left:0;
   }
 }
-@media (max-width:426px) {
-  #weeknd2{
-    left: 10vw;
-  }
-}
+
 @media (max-width:321px) {
   #weeknd2{
     left:0;
