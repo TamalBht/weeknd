@@ -4,6 +4,9 @@
   src: url("./assets/NIAGENG.TTF") ;
 }
 
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,9 +23,10 @@ body{
   background: #050505;
   color: aliceblue;
   margin: 0;
-  padding: 0;
+ overflow-x: hidden;
   
 }
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -65,10 +69,15 @@ body{
   padding-top: 10vh;
 }
 
-.races {
-	
-	display:flex;
+
+
+#container{
   
+  background-color: aliceblue;
+}
+.races {
+	width:fit-content;
+	display:flex;
 	flex-wrap:nowrap;
 }
 
@@ -81,4 +90,28 @@ body{
 	color:#e10600;
 	
 	margin:0;	
+}
+
+.races h2:last-of-type {
+	background:#e1e1ff;
+}
+
+.lightBG {
+	background:#313143;
+}
+
+.space-20vh {
+	height:20vh;
+}
+
+.space-30vh {
+	height:30vh;
+}
+
+.space-50vh {
+	height:50vh;
+}
+
+.space-100vh {
+	height:100vh;
 }
