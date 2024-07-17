@@ -24,10 +24,9 @@ const Hero = () => {
     gsap.to(".hText",{
       scrollTrigger:{
         trigger:".hText",
-        start:"top center",
+        start:"center center",
         end:"bottom bottom",
         scrub:2,
-        
         
         
       },
@@ -42,12 +41,9 @@ const Hero = () => {
     gsap.to(".hTextt",{
       scrollTrigger:{
         trigger:".hTextt",
-        start:"top center",
+        start:"center center",
         end:"bottom bottom",
         scrub:2,
-        
-        
-        
       },
       y:400,
       letterSpacing:15,
@@ -93,14 +89,14 @@ const Hero = () => {
     </div>
   {/*xsection container*/ }
   <div className="sec-cont ">
-  <section id="hero" className={"relative  md:top-0 mt-[0rem] mb-0 md:mb-[30vh] w-full md:w-fit "}>
+  <section id="hero" className={"relative  md:top-0 mt-[0rem] mb-0 md:mb-[30vh] w-full  h-[100vh]"}>
     {/* main wrapper */}
     {/* side bar */}
     <div className='md:flex    ' >
    
         {/* text */}
         <div className=' z-0 h-fit w-full'>
-            <h1 className='relative md:left-[10vw] md:mt-[25vh]  lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] ' ref={firstRef}>After Hours</h1>
+            <h1 className='relative  md:mt-[25vh]  lg:mt-0 bg-text font-niagra text-center text-n-2 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[15rem] lg:tracking-[5px] ' ref={firstRef}>After Hours</h1>
         </div>
         {/* image */}
         <div className='hero-img'>
@@ -111,20 +107,20 @@ const Hero = () => {
     </div>
 
    </section>
-   <div className="h-[5vh] md:h-[35vh]"></div>
+   <div className="h-[17rem] md:h-[35vh]"></div>
    {/*next section*/ }
-   <section id="second" className={"md:mt-[0vh]   min-h-[100vh]"}>
+   <section id="second" className={"md:mt-[0vh]   h-[100vh] w-full md:w-full"}>
      {/* text */}
      <div className=' z-0 h-fit w-full'>
-            <h1 className='hText relative  md:left-[0vw]  md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
+            <h1 className='hText relative   w-full  md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
         </div>
         <div className='hero-img1'>
             <img id='weeknd2' src = {dawnMain} height={1020} className=' relative md:absolute max-w-[40rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 md:mt-[-15rem] mt-[0rem] left-[-8rem] '/>
         </div>
    </section>
-   <div className="h-[5vh] md:h-[35vh]"></div>
+   <div className="h-[15rem] md:h-[35vh]"></div>
    {/*Third sec */}
-   <section id="third" className={"mt-[0vh] mb-[40vh] min-h-[100vh]"}>
+   <section id="third" className={"mt-[0vh] mb-[40vh] h-[100vh]"}>
      {/* text */}
      <div className=' z-0 h-fit w-full'>
             <h1 className='hTextt relative  md:left-[0vw] mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-4 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>KissLand</h1>
@@ -139,9 +135,9 @@ const Hero = () => {
   </div>
   
    </div>
-   <div className="h-[10vh]md:h-[35vh]"></div>
+   <div className="h-[15rem]md:h-[35vh]"></div>
    <Sidescroll/>
-   <section className='h-[18vh]'></section>
+   <section className='h-[18rem]'></section>
   <Footer/>
    
    </>
