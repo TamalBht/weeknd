@@ -24,9 +24,11 @@ const Hero = () => {
     gsap.to(".hText",{
       scrollTrigger:{
         trigger:".hText",
-        start:'top center',
+        start:"top 20%",
         end:"bottom bottom",
-        scrub:2,
+        scrub:3,
+        
+        
         
       },
       y:400,
@@ -40,14 +42,15 @@ const Hero = () => {
     gsap.to(".hTextt",{
       scrollTrigger:{
         trigger:".hTextt",
-        start:'top center',
+        start:"top top",
         end:"bottom bottom",
-        scrub:2,
+        scrub:3,
+        
         
       },
       y:400,
       letterSpacing:15,
-      duration:2,
+      duration:3,
       
     })
 
@@ -58,12 +61,7 @@ const Hero = () => {
         trigger:firstRef.current,
         start:'center center',
         end:"bottom bottom",
-        scrub:2,
-        
-        
-        toggleActions:"play pause reverse pause",
-        
-
+        scrub:2,        
       },
       y:400,
       letterSpacing:8,
