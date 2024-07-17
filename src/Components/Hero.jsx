@@ -59,7 +59,7 @@ const Hero = () => {
     gsap.to(firstRef.current,{
       scrollTrigger:{
         trigger:firstRef.current,
-        start:"top top",
+        start:"20% top",
         end:"bottom bottom",
         scrub:2,        
       },
