@@ -141,8 +141,8 @@ const Hero = () => {
    </div>
    <div className="h-[35vh]"></div>
    <Sidescroll/>
-   <section className='h-[100vh]'>last</section>
-   
+   <section className='h-[10vh]'>last</section>
+  <Footer/>
    
    </>
   )
