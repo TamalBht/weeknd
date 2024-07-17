@@ -45,7 +45,7 @@ const Hero = () => {
         start:"top center",
         end:"bottom bottom",
         scrub:2,
-        markers:true,
+        
         
         
       },
