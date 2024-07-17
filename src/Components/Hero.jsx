@@ -139,7 +139,7 @@ const Hero = () => {
   </div>
   
    </div>
-   <div className="h-[35vh]"></div>
+   <div className="h-[10vh]md:h-[35vh]"></div>
    <Sidescroll/>
    <section className='h-[18vh]'></section>
   <Footer/>
