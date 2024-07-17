@@ -24,7 +24,7 @@ const Hero = () => {
     gsap.to(".hText",{
       scrollTrigger:{
         trigger:".hText",
-        start:"top top",
+        start:"top center",
         end:"bottom bottom",
         scrub:2,
         
@@ -42,9 +42,10 @@ const Hero = () => {
     gsap.to(".hTextt",{
       scrollTrigger:{
         trigger:".hTextt",
-        start:"top top",
+        start:"top center",
         end:"bottom bottom",
         scrub:2,
+        markers:true,
         
         
       },
