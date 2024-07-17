@@ -111,9 +111,9 @@ const Hero = () => {
     </div>
 
    </section>
-   <div className="h-[5vh] md:h-[25vh]"></div>
+   <div className="h-[5vh] md:h-[35vh]"></div>
    {/*next section*/ }
-   <section id="second" className={"md:mt-[0vh]  md:mb-[40vh] min-h-[100vh]"}>
+   <section id="second" className={"md:mt-[0vh]   min-h-[100vh]"}>
      {/* text */}
      <div className=' z-0 h-fit w-full'>
             <h1 className='hText relative  md:left-[0vw] mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
@@ -122,7 +122,7 @@ const Hero = () => {
             <img id='weeknd2' src = {dawnMain} height={1020} className=' relative md:absolute max-w-[40rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 md:mt-[-15rem] mt-[0rem] left-[-8rem] '/>
         </div>
    </section>
-   <div className="h-[5vh] md:h-[25vh]"></div>
+   <div className="h-[5vh] md:h-[35vh]"></div>
    {/*Third sec */}
    <section id="third" className={"mt-[0vh] mb-[40vh] min-h-[100vh]"}>
      {/* text */}
