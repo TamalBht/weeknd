@@ -93,7 +93,7 @@ const Hero = () => {
     </div>
   {/*xsection container*/ }
   <div className="sec-cont ">
-  <section id="hero" className={"relative  md:top-0 mt-[0rem] mb-0 md:mb-[50vh] w-full md:w-fit "}>
+  <section id="hero" className={"relative  md:top-0 mt-[0rem] mb-0 md:mb-[30vh] w-full md:w-fit "}>
     {/* main wrapper */}
     {/* side bar */}
     <div className='md:flex    ' >
@@ -116,7 +116,7 @@ const Hero = () => {
    <section id="second" className={"md:mt-[0vh]   min-h-[100vh]"}>
      {/* text */}
      <div className=' z-0 h-fit w-full'>
-            <h1 className='hText relative  md:left-[0vw] mt-[25vh] md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
+            <h1 className='hText relative  md:left-[0vw]  md:mt-[16vh] lg:mt-0 bg-text font-niagra text-center text-n-3 text-[8rem] md:text-[10rem] xl:text-[20rem]   md:ml-[5rem] lg:tracking-[5px]  '>Dawn FM</h1>
         </div>
         <div className='hero-img1'>
             <img id='weeknd2' src = {dawnMain} height={1020} className=' relative md:absolute max-w-[40rem] md:max-w-[30rem] lg:max-w-[60rem]  md:left-[15%] z-50 md:mt-[-15rem] mt-[0rem] left-[-8rem] '/>
