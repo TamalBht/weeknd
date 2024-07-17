@@ -50,7 +50,7 @@ const Hero = () => {
       },
       y:400,
       letterSpacing:15,
-      duration:3,
+      duration:2,
       
     })
 
