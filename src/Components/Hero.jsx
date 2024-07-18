@@ -20,7 +20,7 @@ const Hero = () => {
   const firstRef=useRef(null);
   const contRef=useRef(null);
 
-  useEffect(()=>{
+  useGSAP(()=>{
     gsap.to(".hText",{
       scrollTrigger:{
         trigger:".hText",
@@ -30,6 +30,7 @@ const Hero = () => {
         
         
       },
+      ease:"none",
       y:400,
       letterSpacing:15,
       duration:2,
@@ -48,7 +49,7 @@ const Hero = () => {
       y:400,
       letterSpacing:15,
       duration:2,
-      
+      ease:"none",
     })
 
   },[])
@@ -64,6 +65,8 @@ const Hero = () => {
       letterSpacing:8,
      
         duration:2,
+        ease:"none",
+
  
     })
 
