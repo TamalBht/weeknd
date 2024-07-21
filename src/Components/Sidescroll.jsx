@@ -50,7 +50,7 @@ const Sidescroll = () => {
 		<h2>Tesfaye</h2>
 		<h2>AKA</h2>
 		<h2>The</h2>
-		<h2 className=''>Weeknd</h2>
+		<h2 className='last' >Weeknd</h2>
 	</div>
 </div>
 

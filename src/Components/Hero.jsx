@@ -25,15 +25,16 @@ const Hero = () => {
       scrollTrigger:{
         trigger:".hText",
         start:"20% top",
-        end:"bottom bottom",
+        end:"70% bottom",
         scrub:2,
+        markers:true,
         
         
       },
       ease:"none",
       y:400,
       letterSpacing:15,
-      duration:2,
+      duration:3,
       
     })
 
@@ -43,12 +44,12 @@ const Hero = () => {
       scrollTrigger:{
         trigger:".hTextt",
         start:"20% top",
-        end:"bottom bottom",
+        end:"70% bottom",
         scrub:2,
       },
       y:400,
       letterSpacing:15,
-      duration:2,
+      duration:3,
       ease:"none",
     })
 
