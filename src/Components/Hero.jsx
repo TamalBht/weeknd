@@ -27,7 +27,7 @@ const Hero = () => {
         start:"20% top",
         end:"70% bottom",
         scrub:2,
-        markers:true,
+        
         
         
       },
